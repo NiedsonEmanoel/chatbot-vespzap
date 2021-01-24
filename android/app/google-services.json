@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "236654763477",
+    "project_id": "vespzapnovo",
+    "storage_bucket": "vespzapnovo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:236654763477:android:a81c6818193b3d7fab715c",
+        "android_client_info": {
+          "package_name": "com.nmsoft.guia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "236654763477-8o4kpog2au9aokh2sle08ghfqutbra4m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_qp9lkFtX1HDWThl1K6ISBAMHgnT6wI4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "236654763477-8o4kpog2au9aokh2sle08ghfqutbra4m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
