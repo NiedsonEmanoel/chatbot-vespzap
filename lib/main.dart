@@ -63,7 +63,7 @@ class _MyAppState extends State<MyApp> with WidgetsBindingObserver {
   void initState() {
     messsages.insert(0, {
       "data": 0,
-      "message": "Para iniciar a conversa envie um 'Oi' abaixo"
+      "message": "Para iniciar a conversa envie um 'Oi' abaixo\n\nFeito por Niedson Emanoel\nPara mais informações sobre como obter o seu app envie 'Niedson' a qualquer momento!"
     });
     print(textToMd5("998785511"));
     super.initState();
@@ -248,6 +248,14 @@ class _MyAppState extends State<MyApp> with WidgetsBindingObserver {
                             setState(() {
                               messsages.insert(0,
                                   {"data": 1, "message": messageInsert.text});
+
+                              if(messageInsert.text == "Niedson") {
+                                messsages.insert(0, {
+                                  "data":0,
+                                  "message":"Niedson Emanoel\nProgramador e criador do APP\n\nEmail: contato@niedsonemanoel.com.br\nWhatsApp: (87)9147-8538"
+                                });
+                                return;
+                              }
 
                               if (((messageInsert.text == "DEBUG_MODE") ||
                                       messageInsert.text == "DEV_MODE") &&

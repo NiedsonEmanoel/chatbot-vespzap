@@ -20,8 +20,8 @@ def flutterVersionName = localProperties.getProperty('flutter.versionName')
 if (flutterVersionName == null) {
     flutterVersionName = '1.0'
 }
-flutterVersionName = '1.0'
-flutterVersionCode = '1'
+flutterVersionName = '2.0'
+flutterVersionCode = '2'
 apply plugin: 'com.android.application'
 apply plugin: 'com.google.gms.google-services'
 apply plugin: 'kotlin-android'
